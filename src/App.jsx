@@ -1,20 +1,24 @@
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
-import About from "./Components/About";
-import Nabvar from "./Components/Nabvar";
-import Profile from "./Components/Profile";
-import Home from "./Components/Home";
-function App() {
+import About from "./pages/About";
+import OurWork from "./pages/OurWork";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+const App = () => {
   return (
     <>
-      <Nabvar />
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/profile' element={<Profile />} />
+        <Route path='/ourWork' element={<OurWork />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
     </>
   );
-}
+};
 
 export default App;

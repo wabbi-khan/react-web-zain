@@ -1,0 +1,38 @@
+* {
+    color: white !important;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pp {
+    background: url("../../images/pppp.png");
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 2px solid #ff6357 !important;
+    border-radius: 5px !important;
+    width: 200px;
+}
+
+.hero .btn {
+    background-color: #ff6357;
+}
+
+.hero .social-icons {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
