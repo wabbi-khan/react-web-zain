@@ -1,0 +1,27 @@
+.discover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.text-1 {
+    font-size: 30px;
+}
+
+.bg-img {
+    width: 100px;
+    height: 200px;
+}
+
+.btn-discover {
+    background-color: transparent;
+    color: #ff6357;
+    border: #ff6357 1px solid;
+    border-radius: 2px;
+}
+
+.text-2 {
+    margin: 100px 0 0 0 !important;
+}

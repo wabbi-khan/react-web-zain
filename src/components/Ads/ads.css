@@ -1,0 +1,15 @@
+.services {
+    background-color: #ff6357;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ads img {
+    width: 120px;
+    padding-top: 30px;
+}

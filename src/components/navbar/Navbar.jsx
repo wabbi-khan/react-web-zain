@@ -5,6 +5,7 @@ import "./navbar.css";
 import Logo from "../../images/logo.png";
 import Search from "../../images/search.png";
 import Hero from "../hero/Hero";
+
 const Navbarr = () => {
   return (
     <div className='bg'>

@@ -1,7 +1,3 @@
-* {
-    color: white !important;
-}
-
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +5,7 @@
     justify-content: center;
     height: 100%;
     width: 100%;
+    color: white !important;
 }
 
 .hero h1 {
@@ -21,10 +18,27 @@
     background-repeat: no-repeat;
 }
 
-hr {
+
+/* hr {
     border: 2px solid #ff6357 !important;
     border-radius: 5px !important;
     width: 200px;
+} */
+
+.line2 {
+    display: flex;
+    padding: 20px;
+}
+
+span {
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+.line {
+    width: 200px;
+    height: 5px;
+    border-radius: 50px;
 }
 
 .hero .btn {
