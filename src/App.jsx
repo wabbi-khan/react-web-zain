@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Ads from "./components/Ads/Ads";
 import DiscoverMore from "./components/discover/DiscoverMore";
 import Gallery from "./components/gallery/Gallery";
+import OurWork from "./components/ourWork/OurWork";
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
       <Ads />
       <DiscoverMore />
       <Gallery />
+      <OurWork />
       {/* <Routes>
         <Route path='/about' element={<About />} />
         <Route path='/ourWork' element={<OurWork />} />
