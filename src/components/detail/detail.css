@@ -1,6 +1,7 @@
 .bg-liner {
     background-color: #ff6357;
-    height: 100vh;
+    width: 100%;
+    height: 700px;
 }
 
 .first-row {

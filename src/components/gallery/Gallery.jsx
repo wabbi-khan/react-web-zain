@@ -8,9 +8,15 @@ const Gallery = () => {
       <div class='container-fluid gallery'>
         <div className='row '>
           <div className='col-12 d-flex p-0'>
-            <img src={Galleryy2} className='gallery-img' alt='gallery' />
-            <img src={Galleryy} className='gallery-img' alt='gallery' />
-            <img src={Galleryy2} className='gallery-img' alt='gallery' />
+            <div>
+              <img src={Galleryy2} className='gallery-img' alt='gallery' />
+            </div>
+            <div>
+              <img src={Galleryy} className='gallery-img' alt='gallery' />
+            </div>
+            <div>
+              <img src={Galleryy2} className='gallery-img' alt='gallery' />
+            </div>
           </div>
         </div>
       </div>
