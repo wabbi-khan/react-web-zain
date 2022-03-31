@@ -1,0 +1,88 @@
+.bg-liner {
+    background-color: #ff6357;
+    height: 100vh;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sec-row {
+    margin: auto;
+    color: white;
+    padding-left: 100px;
+}
+
+
+/* .set-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+} */
+
+e {
+    writing-mode: vertical-lr;
+    letter-spacing: 5px;
+    position: absolute;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.sec-row img {
+    width: 150px;
+    padding-left: 70px;
+}
+
+b {
+    padding-left: 85px;
+    text-align: center;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.third-row h1 {
+    color: white;
+    font-variant: small-caps;
+}
+
+.third-row .para {
+    color: white;
+    padding: 10px 0 30px 0;
+}
+
+.third-row button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.third-row .image {
+    background-image: url("/src//images/p111.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 140%;
+    margin-top: -85px;
+}
+
+.image img {
+    width: 350px;
+    margin: 25px 0 0 50px;
+}

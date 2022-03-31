@@ -9,7 +9,7 @@ const DiscoverMore = () => {
           <div className='col-5'>
             <h1 className=' text-1 py-4'>
               Creating Trends & <br /> Bringing them to
-              <e style={{ color: "#FF6357" }}> Reality</e>
+              <w style={{ color: "#FF6357" }}> Reality</w>
             </h1>
             <p className='pb-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

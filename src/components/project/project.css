@@ -1,0 +1,53 @@
+.sale {
+    padding-top: 50px;
+    /* padding-bottom: 2000px; */
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.plan {
+    background: url("/src/images/attachment-41.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50vh;
+}
+
+.plan h3 {
+    color: white;
+    margin: 50px 0 0 120px;
+}
+
+.plan p {
+    color: white;
+    margin-left: 120px;
+    padding-top: 20px;
+    width: 300px;
+}
+
+.plan button {
+    background-color: #ff6357;
+    margin-left: 120px;
+    color: white;
+    border: none;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    width: 530px;
+}
+
+.image1 {
+    width: 550px !important;
+}

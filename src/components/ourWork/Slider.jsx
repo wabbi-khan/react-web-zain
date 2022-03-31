@@ -9,7 +9,7 @@ import "./ourwork.css";
 class CenterMode extends Component {
   render() {
     const settings = {
-      className: "center",
+      className: "container-fluid center",
       centerMode: true,
       infinite: true,
       centerPadding: "60px",
@@ -21,23 +21,23 @@ class CenterMode extends Component {
         <Slider {...settings}>
           <div>
             <img src={Image1} alt='slider-img' />
-            <p>asd</p>
+            <p>Our Work</p>
           </div>
           <div>
-            <img src={Image2} width={300} alt='slider-img' />
-            <p>asd</p>
+            <img src={Image2} alt='slider-img' />
+            <p>Our Work</p>
           </div>
           <div>
-            <img src={Image1} width={300} alt='slider-img' />
-            <p>asd</p>
+            <img src={Image1} alt='slider-img' />
+            <p>Our Work</p>
           </div>
           <div>
-            <img src={Image1} width={300} alt='slider-img' />
-            <p>asd</p>
+            <img src={Image2} alt='slider-img' />
+            <p>Our Work</p>
           </div>
           <div>
-            <img src={Image1} width={300} alt='slider-img' />
-            <p>asd</p>
+            <img src={Image1} alt='slider-img' />
+            <p>Our Work</p>
           </div>
         </Slider>
       </div>

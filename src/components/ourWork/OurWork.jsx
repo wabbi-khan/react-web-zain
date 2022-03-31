@@ -18,8 +18,8 @@ const OurWork = () => {
               }}
             >
               <h1 className='px-4'>Our Work</h1>
-              <e className='plus'>+</e>
-              <e className='view'>View More</e>
+              <w className='plus'>+</w>
+              <w className='view'>View More</w>
             </div>
             <div className='col-5  arrow'>
               <img src={Arrow1} alt='arrow' />

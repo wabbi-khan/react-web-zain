@@ -11,6 +11,10 @@ import Ads from "./components/Ads/Ads";
 import DiscoverMore from "./components/discover/DiscoverMore";
 import Gallery from "./components/gallery/Gallery";
 import OurWork from "./components/ourWork/OurWork";
+import Detail from "./components/detail/Detail";
+import Project from "./components/project/Project";
+import NewsLetter from "./components/newsletter/NewsLetter";
+import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <>
@@ -19,6 +23,10 @@ const App = () => {
       <DiscoverMore />
       <Gallery />
       <OurWork />
+      <Detail />
+      <Project />
+      <NewsLetter />
+      <Footer />
       {/* <Routes>
         <Route path='/about' element={<About />} />
         <Route path='/ourWork' element={<OurWork />} />
